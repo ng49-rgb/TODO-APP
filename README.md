@@ -10,9 +10,21 @@ A simple Flask + SQLAlchemy todo application with create, update, delete, and se
 - Display dates in dd-mm-yyyy format
 
 ## Requirements
-- Python 3.11+
-- Flask
-- Flask-SQLAlchemy
+blinker==1.9.0
+click==8.4.2
+colorama==0.4.6
+Flask==3.1.3
+Flask-SQLAlchemy==3.1.1
+greenlet==3.5.3
+gunicorn==26.0.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+packaging==26.2
+SQLAlchemy==2.0.51
+typing_extensions==4.16.0
+Werkzeug==3.1.8
+
 
 ## Setup
 1. Create and activate a virtual environment
